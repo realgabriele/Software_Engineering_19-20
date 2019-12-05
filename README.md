@@ -2,6 +2,6 @@
 Progetto di Ingegneria del Software a.a. 2019/2020
 
 Group Members:
-* Tagliente Gabriele
-* Sborlini Valentina
 * Innamorati Giorgio
+* Sborlini Valentina
+* Tagliente Gabriele
