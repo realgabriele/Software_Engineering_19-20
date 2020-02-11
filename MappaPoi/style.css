@@ -1,0 +1,42 @@
+#container {
+	
+}
+
+div#left-menu {
+	height:100%;
+	width:25%;
+	float: left;
+}
+
+div#mappa {
+}
+
+div#lista {
+	width: 100%;	
+}
+
+#map {
+	height:	100%
+}
+
+#searchbar {
+	width: 100%;
+	height: 30px;
+}
+
+.poi-item {
+	border-style:	solid;
+	margin:	10px 5px;
+}
+
+.infowindow {
+	
+}
+
+.infotitle {
+	background-color:	#F00;
+}
+
+.infodescription {
+	background-color:	#FF0;
+}

@@ -5,3 +5,7 @@ Group Members:
 * Innamorati Giorgio
 * Sborlini Valentina
 * Tagliente Gabriele
+
+# Directories
+* gi_banana: definizione delle API tramite Laravel
+* MappaPoi: prototipo di interfaccia grafica
