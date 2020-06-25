@@ -3,7 +3,7 @@ import _thread
 import datetime
 import time
 
-n_thread = 1000
+n_thread = 2000
 URL = "http://teambanana/api/poi"
 
 def speedtest(id):
@@ -13,12 +13,12 @@ def speedtest(id):
 	s = str(id) +","+ str(tstart) +","+ str(tend) +","+ str(tend-tstart) +","+ str(r)
 	print(s)
 
-for i in range(n_thread):
-	try:
+try:
+	for i in range(n_thread):
 		_thread.start_new_thread( speedtest, (i,) )
 		time.sleep(0.03)
-	except:
-		print("Error: unable to start thread")
+except:
+	print("Error: unable to start thread")
 
 while True:
 	pass
