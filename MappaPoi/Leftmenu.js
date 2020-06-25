@@ -30,8 +30,9 @@ class Leftmenu {
 			
 			var new_div = document.createElement("div");
 			new_div.className = "poi-item";
-			new_div.innerHTML = "<b>" + curr_poi.name + "</b>" +
-								"<br/>" + curr_poi.description;
+			new_div.innerHTML = "<div class='poi-title'>" + curr_poi.name + "</div>" +
+								"<div class='poi-description'>" + curr_poi.description + "</div>" +
+								"<hr>";
 			
 			document.getElementById("listapoi").appendChild(new_div);
 		}

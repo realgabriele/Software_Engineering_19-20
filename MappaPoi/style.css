@@ -15,6 +15,11 @@ div#lista {
 	width: 100%;	
 }
 
+div#listapoi {
+	height: 85%;
+	overflow: auto;
+}
+
 #map {
 	height:	100%
 }
@@ -25,18 +30,43 @@ div#lista {
 }
 
 .poi-item {
-	border-style:	solid;
-	margin:	10px 5px;
+	// border-style:	solid;
+	// margin:	10px 5px;
+}
+
+.poi-title {
+	font-weight:bold;
+	font-style:justify;
+	border-bottom:2px solid #cc0000;
+	margin-bottom: 0.4em ;
+	padding:0px 0px 0.3em 2px ;
+	font-size: 1.1em;
+}
+
+.poi-description {
+	margin-bottom: 0.4em ;
+	padding:0px 0px 0.3em 2px ;
+	color:#333;
+	background-color:#f2f2f2;
 }
 
 .infowindow {
-	
+	width: 200px;
+	min-height: 80px;
 }
 
 .infotitle {
-	background-color:	#F00;
+	font-weight:bold;
+	font-style:justify;
+	border-bottom:2px solid #cc0000;
+	margin-bottom: 0.4em ;
+	padding:0px 0px 0.3em 2px ;
+	font-size: 1.1em;
 }
 
 .infodescription {
-	background-color:	#FF0;
+	margin-bottom: 0.4em ;
+	padding:0px 0px 0.3em 2px ;
+	color:#333;
+	background-color:#f2f2f2;
 }
